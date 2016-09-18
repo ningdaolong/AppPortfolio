@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="cn.ning.portfolio.MainActivity">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="My Nanodegree Apps!" />
+    <Button
+        android:id="@+id/one"
+        android:layout_width="250dp"
+        android:background="#2d3d4a"
+        android:text="POPULAR MOVIES"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/two"
+        android:layout_width="250dp"
+        android:background="#2d3d4a"
+        android:text="STOCK HAWK"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/three"
+        android:layout_width="250dp"
+        android:background="#2d3d4a"
+        android:text="BUILD IT BIGGER"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/four"
+        android:layout_width="250dp"
+        android:background="#2d3d4a"
+        android:text="MAKE YOUR APP MATERIAL"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/five"
+        android:layout_width="250dp"
+        android:background="#2d3d4a"
+        android:text="GO UBIQUITOUS"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/six"
+        android:layout_width="250dp"
+        android:background="#2d3d4a"
+        android:text="CAPSTONE"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_height="50dp" />
+</LinearLayout>
